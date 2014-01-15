@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
 
+gem "twitter-bootstrap-rails"
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -22,6 +24,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'bootstrap-sass'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -40,3 +44,5 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'rspec-rails'
 end
+
+require 'spork'
